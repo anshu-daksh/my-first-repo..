@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color:rgb(224, 223, 223);
+    width: 10%;
+    height: 150vh;
+}
+.sidebar nav{
+    padding: 50px;
+}
+.sidebar nav li {
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+.main{
+    background-color: rgb(91, 91, 50);
+    width: 90%;
+}
+.container{
+    display: flex;
+}
+.infocontainer{
+    background-color: rgb(159, 159, 229);
+    width: 80vw;
+    height: 70vw;
+    margin:45px auto ;
+    display: flex;
+    justify-content: space-around;
+}
+.divinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.Hello{
+    font-size: 85px;
+}
+.name{
+font-size: 65px;
+font-weight: bold;
+}
+.about{
+font-size: 30px;
+}
+
+
+.photos{
+ border-radius:2px solid black;
+ height: 50px;
+ width: 50px;
+ 
+}
+    
+    
